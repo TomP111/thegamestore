@@ -3,7 +3,7 @@ require_once("../db.php");
 session_start();
 
 if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
-     require_once("header.php")
+     require_once("../header.php")
 ?>
      <!DOCTYPE html>
 
@@ -16,15 +16,15 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
           <script>
           </script>
           <div class="header-container">
-               <a href="../index.php"><img id="logo" src="img/logo.png"></a>
+               <a href="../index.php"><img id="logo" src="http://localhost/the_game_store/img/logo.png"></a>
                <div class="searchBar">
                     <form class="search-form" action="../catalogue.php" method="get">
                          <input id="searchBAR" name="search" type="text" value="" />
                     </form>
                </div>
                <div class="menu">
-                    <a href="../panier/panier.php"><img id="cart-img" src="cart.png"></a>
-                    <a href="login.php"><img id="account-img" src="account.png"></a>
+                    <a href="../panier/panier.php"><img id="cart-img" src="http://localhost/the_game_store/img/cart.png"></a>
+                    <a href="login.php"><img id="account-img" src="http://localhost/the_game_store/img/account.png"></a>
                </div>
           </div>
      </body>
@@ -91,7 +91,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['User'])) {
                          document.getElementById("ccheckpwd").style.display = "none";
 
                     } else {
-                         document.getElementById("ccheckpwd").style.display = "block";
+                        document.getElementById("ccheckpwd").style.display = "block";
 
                          ok = false;
 

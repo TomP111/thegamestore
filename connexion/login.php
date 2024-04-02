@@ -29,7 +29,7 @@
     ?>
     <div class="grid">
         <div class="background">
-            <div class="logo"><a href="../index.php"><img class="logo" src="img/logo.png"></a></div>
+            <div class="logo"><a href="../index.php"><img class="logo" src="http://localhost/the_game_store/img/logo.png"></a></div>
             <div class="register">
                 <div class="login">
                     <form class="connect" action="connexion.php" method="POST">
@@ -72,7 +72,7 @@
         </div>
         <div class="background2">
 
-            <img style="width: 100%; height: 100%" src="img/img_grid.jpg">
+            <img style="width: 100%; height: 100%" src="http://localhost/the_game_store/img/img_grid.jpg">
         </div>
     </div>
 

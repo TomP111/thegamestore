@@ -3,7 +3,7 @@ require_once("../db.php");
 session_start();
 
 if (isset($_SESSION['ID']) && isset($_SESSION['User'])){
-     require_once("header.php")
+     require_once("../header.php")
  ?>
 <!DOCTYPE html>
 <html>

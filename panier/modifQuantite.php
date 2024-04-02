@@ -1,5 +1,5 @@
 <?php
-    require_once("db.php");
+    require_once("../db.php");
     $id = $_GET["i"];
     $idjeu = $_GET["id"];
     $value = $_GET["value"];
