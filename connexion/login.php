@@ -54,7 +54,7 @@
 
                         <div class="forgot">
 
-                            <a href="forgot.php" class="forgotpassword">Mot de pass oublié</a>
+                            <a href="forgot.php" class="forgotpassword">Mot de passe oublié</a>
                             <a href="register.php" class="createacc">Pas encore de compte ?</a>
                         </div>
                         <div style="height:40px"></div>
