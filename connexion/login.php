@@ -54,8 +54,8 @@
 
                         <div class="forgot">
 
-                            <a href="forgot.php" class="forgotpassword">Mot de passe oublié</a>
-                            <a href="register.php" class="createacc">Pas encore de compte ?</a>
+                            <!--<a href="http://localhost/the_game_store/connexion/forgot.php" class="forgotpassword">Mot de passe oublié</a> -->
+                            <a href="http://localhost/the_game_store/connexion/register.php" class="createacc">Pas encore de compte ?</a>
                         </div>
                         <div style="height:40px"></div>
                         <?php
