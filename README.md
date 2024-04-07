@@ -59,6 +59,8 @@ Voici les prémices de la base de données du projet :
 La table « articles » est le centre de cette base, elle regroupe l’ensemble des articles en s’appuyant sur différentes autres tables à l’aide de clés étrangères.
 Ainsi, un article peut être écrit par plusieurs développeurs, être disponible sur plusieurs plateformes et disposer de plusieurs genres, il ne dispose néanmoins que d’un seul éditeur et d’une seule image.
 Par la suite, la base de données à été amenée à ressembler à ceci :
+
+![image](https://github.com/TomP111/thegamestore/assets/97836360/ce3ad3c1-7263-446b-906e-412cb3127f7a)
  
 En effet, trois tables (Accounts,Tickets et Panier) ont été ajoutées. Account permettant d’enregistrer les comptes utilisateurs, Panier de stocker les produits enregistrés dans leur panier et Tickets d’enregistrer les tickets utilisateurs, servant pour une application SAV reliée au site.
 
