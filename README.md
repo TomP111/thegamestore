@@ -1,4 +1,4 @@
-#Projet site e-commerce « The Game Store »
+Projet site e-commerce « The Game Store »
 
 Le projet « The Game Store » consiste en un site e-commerce qui vend des jeux vidéo dématérialisés. 
 
